@@ -1,0 +1,4 @@
+#This script lets us deal with rbenv
+export PATH="/usr/local/bin:$PATH";
+eval "$(rbenv init -)";
+ruby "$0.rb";
